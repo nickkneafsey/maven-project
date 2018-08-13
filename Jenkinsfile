@@ -2,7 +2,7 @@ pipeline {
   agent any
   stages {
     stage('Build'){
-      steos{
+      steps{
         sh 'mvn clean package'
       }
     }
